@@ -34,11 +34,9 @@ NeoBundle 'Xuyuanp/nerdtree-git-plugin'
 
 " File finder
 NeoBundle 'ctrlpvim/ctrlp.vim'
-" NeoBundle 'wincent/Command-T'
 
 " Autocomplete
 NeoBundle 'Valloric/YouCompleteMe'
-NeoBundle 'scrooloose/syntastic'
 
 " Python
 NeoBundle 'davidhalter/jedi-vim'
