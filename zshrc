@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/pawelka/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -49,7 +49,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git node npm vi-mode)
+plugins=(git node npm extract)
 
 # User configuration
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -82,7 +82,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vimdoc="vim ~/Documents/vimdoc"
+alias vimdoc="vim /home/pawelka/Documents/vimdoc"
 alias apt-update="sudo apt-get update"
 alias apt-install="sudo apt-get install"
 alias apt-upgrade="sudo apt-get upgrade"
