@@ -87,3 +87,5 @@ alias apt-update="sudo apt-get update"
 alias apt-install="sudo apt-get install"
 alias apt-upgrade="sudo apt-get upgrade"
 alias ssh-agent-cyg='eval `ssh-agent -s`' # Fixes the ssh-agent in root
+alias mkcd='_(){ mkdir $1; cd $1; }; _'
+
