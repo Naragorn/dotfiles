@@ -86,6 +86,8 @@ alias vimdoc="vim /home/pawelka/Documents/vimdoc"
 alias apt-update="sudo apt-get update"
 alias apt-install="sudo apt-get install"
 alias apt-upgrade="sudo apt-get upgrade"
+alias apt-full="apt-update;apt-upgrade"
 alias ssh-agent-cyg='eval `ssh-agent -s`' # Fixes the ssh-agent in root
 alias mkcd='_(){ mkdir $1; cd $1; }; _'
-
+alias loadNeo="setxkbmap de neo"
+alias loadEn="setxkbmap us"
