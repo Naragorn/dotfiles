@@ -82,12 +82,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vimdoc="vim /home/pawelka/Documents/vimdoc"
+alias vimdoc="vim ~/Documents/vimdoc"
 alias apt-update="sudo apt-get update"
 alias apt-install="sudo apt-get install"
 alias apt-upgrade="sudo apt-get upgrade"
-alias apt-full="apt-update;apt-upgrade;sudo apt-get autoremove"
+alias apt-full="apt-update;apt-upgrade;sudo apt-get dist-upgrade;sudo apt-get autoremove;"
 alias ssh-agent-cyg='eval `ssh-agent -s`' # Fixes the ssh-agent in root
-alias mkcd='_(){ mkdir $1; cd $1; }; _'
 alias loadNeo="setxkbmap de neo"
 alias loadEn="setxkbmap us"
