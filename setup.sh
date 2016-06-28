@@ -10,6 +10,9 @@ if [ $install = "y" ]; then
     echo "Installing zsh..."
     sudo apt-get install zsh 
 
+    # Change default shell to zsh
+    sudo chsh -s /bin/zsh
+
     # Install oh-my-zsh
     echo "Installing oh-my-zsh..."
     sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
